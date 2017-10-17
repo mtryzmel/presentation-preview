@@ -1,0 +1,10 @@
+.slideshow .background {
+    opacity:0;
+    visibility:hidden;
+    -webkit-transition:1s;
+    transition:1s;
+ }
+ .slideshow .background.shown {
+    opacity:1;
+    visibility:visible;
+ }
